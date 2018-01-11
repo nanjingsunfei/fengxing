@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fengxing-api" />
+        <module name="fengxing-service" />
+        <module name="fengxing-test" />
+        <module name="fengxing-web" />
+        <module name="fengxingweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="fengxing-api" target="1.8" />
+      <module name="fengxing-server" target="1.8" />
+      <module name="fengxing-service" target="1.8" />
+      <module name="fengxing-test" target="1.8" />
+      <module name="fengxing-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
