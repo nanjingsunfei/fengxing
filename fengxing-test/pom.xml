@@ -128,7 +128,14 @@
             <scope>compile</scope>
             <version>1.6.8</version>
         </dependency>
+        <dependency>
+            <groupId>com.dianping.invoice</groupId>
+            <artifactId>invoice-composite-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
+
+
 
 
 </project>
