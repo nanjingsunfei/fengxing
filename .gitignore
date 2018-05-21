@@ -7,6 +7,5 @@
 .project
 .classpath
 /.settings
-.idea/
 *.iml
 /WebContent
