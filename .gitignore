@@ -2,6 +2,7 @@
 *.class
 *.jar
 /bin
+/target
 .eclipse
 .project
 .classpath
