@@ -8,3 +8,5 @@
 .classpath
 /.settings
 /WebContent
+.idea/
+*.iml
