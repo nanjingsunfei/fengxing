@@ -15,7 +15,7 @@ public class Test {
 
 
     static class Driver {
-        private Semaphore semaphore = new Semaphore(1);
+        private Semaphore semaphore = new Semaphore(3);
 
         public void doDrive() {
             try {

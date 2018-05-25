@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>fengxing-test</artifactId>
+    <version>${fengxing-test.version}</version>
+    <packaging>war</packaging>
+    <name>fengxing-test</name>
+    <url>http://maven.apache.org</url>
 
     <properties>
         <springVersion>4.1.4.RELEASE</springVersion>
@@ -133,6 +137,17 @@
             <artifactId>invoice-composite-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.dianping.puma</groupId>
+            <artifactId>puma-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dianping.squirrel</groupId>
+            <artifactId>squirrel-client</artifactId>
+        </dependency>
+
     </dependencies>
 
 

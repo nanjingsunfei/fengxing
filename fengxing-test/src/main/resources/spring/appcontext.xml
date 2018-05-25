@@ -12,12 +12,7 @@
     >
 
 
-    <!--<context:component-scan base-package="cn.njupt.fengxing" />-->
-
-    <bean id="dog" class="cn.njupt.fengxing.spring.beans.Dog" />
-
-    <bean class="cn.njupt.fengxing.spring.beans.Cat" />
-
-    <!--<aop:aspectj-autoproxy/>-->
+    <context:component-scan base-package="cn.njupt" />
+    <aop:aspectj-autoproxy/>
 
 </beans>
