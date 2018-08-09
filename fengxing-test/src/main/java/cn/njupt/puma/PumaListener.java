@@ -21,8 +21,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by sunfei on 2018/5/25.
  */
-@Slf4j
-@Component
+//@Slf4j
+//@Component
 public class PumaListener {
 
     @Autowired

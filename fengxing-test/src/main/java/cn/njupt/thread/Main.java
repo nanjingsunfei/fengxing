@@ -9,9 +9,9 @@ public class Main {
         Service service = new Service();
 
         Thread sleepThread = new Thread(new SleepThread(service));
-        Thread waitThread = new Thread(new WaitThread(service));
+//        Thread waitThread = new Thread(new WaitThread(service));
 
         sleepThread.start();
-        waitThread.start();
+//        waitThread.start();
     }
 }

@@ -3,6 +3,7 @@ package cn.njupt.fengxing.spring;
 import cn.njupt.fengxing.spring.beans.Cat;
 import cn.njupt.fengxing.spring.beans.People;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
@@ -24,6 +25,9 @@ public class Main {
 //        People people = (People) applicationContext.getBean("people");
 //        System.out.println(people.getClass().getName());
 //        people.pet();
+//
+//        ApplicationContext applicationContext1 =  new AnnotationConfigApplicationContext();
+//        applicationContext1.getBean("dog");
 
     }
 }

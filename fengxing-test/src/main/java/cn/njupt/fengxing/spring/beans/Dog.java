@@ -7,6 +7,7 @@ import javax.annotation.PostConstruct;
 /**
  * Created by sunfei on 2017/9/23.
  */
+@Component
 public class Dog {
     private String name = "木木";
     private int age = 12;
